@@ -168,11 +168,13 @@ After seeding, use these credentials:
 ## Deployment
 
 ### Frontend (Vercel)
+
 - **URL**: https://bellcorp-studio-assignment.vercel.app
 - Root directory: `client`
 - Environment variable: `VITE_API_URL = https://bellcorp-studio-assignment.onrender.com/api`
 
 ### Backend (Render)
+
 - **URL**: https://bellcorp-studio-assignment.onrender.com
 - Root directory: `server`
 - Build command: `npm install`
@@ -180,6 +182,7 @@ After seeding, use these credentials:
 - Environment variables: `MONGODB_URI`, `JWT_SECRET`, `CLIENT_URL`, `NODE_ENV`
 
 ### Test Credentials
+
 - **Email**: test@example.com
 - **Password**: password123
 
