@@ -1,0 +1,122 @@
+.event-details {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.event-details-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-xl);
+  transition: color var(--transition-fast);
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.event-details-back:hover {
+  color: var(--text-primary);
+}
+
+.event-details-header {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.event-details-category {
+  margin-bottom: var(--spacing-md);
+}
+
+.event-details-title {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.2;
+  margin-bottom: var(--spacing-lg);
+}
+
+.event-details-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.event-details-info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.event-details-info-label {
+  font-size: var(--font-size-xs);
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.event-details-info-value {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.event-details-description {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.event-details-description h2 {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+}
+
+.event-details-description p {
+  font-size: var(--font-size-base);
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.event-details-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-lg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+}
+
+.event-details-seats {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+}
+
+.event-details-sold-out {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-gray-400);
+  font-style: italic;
+}
+
+.event-details-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-lg);
+}
+
+@media (max-width: 640px) {
+  .event-details-title {
+    font-size: var(--font-size-2xl);
+  }
+
+  .event-details-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

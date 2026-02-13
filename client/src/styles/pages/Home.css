@@ -1,0 +1,21 @@
+.home-header {
+  margin-bottom: var(--spacing-xl);
+}
+
+.home-title {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-bottom: var(--spacing-xs);
+}
+
+.home-subtitle {
+  font-size: var(--font-size-base);
+  color: var(--text-secondary);
+}
+
+@media (max-width: 640px) {
+  .home-title {
+    font-size: var(--font-size-2xl);
+  }
+}

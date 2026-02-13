@@ -1,0 +1,47 @@
+.dashboard-header {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.dashboard-title {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: var(--spacing-xs);
+}
+
+.dashboard-subtitle {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+}
+
+.dashboard-section {
+  margin-bottom: var(--spacing-3xl);
+}
+
+.dashboard-section-title {
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  margin-bottom: var(--spacing-lg);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--color-black);
+  display: inline-block;
+}
+
+.dashboard-empty {
+  padding: var(--spacing-2xl);
+  text-align: center;
+  border: 1px dashed var(--border-color);
+  border-radius: var(--border-radius);
+}
+
+.dashboard-empty p {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-md);
+}
+
+.dashboard-empty a {
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
