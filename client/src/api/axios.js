@@ -1,7 +1,11 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000/api",
+  baseURL:
+    import.meta.env.VITE_API_URL ||
+    (window.location.hostname === "localhost"
+      ? "http://localhost:5000/api"
+      : "https://bellcorp-studio-assignment.onrender.com/api"),
 });
 
 // Request interceptor — attach token
